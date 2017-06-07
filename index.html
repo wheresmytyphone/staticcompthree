@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700" rel="stylesheet">
+    <title>Static Comp 3</title>
+  </head>
+
+  <body>
+    <section class="main">
+        <aside class="side-nav">
+            <div class="nav-profile">
+              <img class="user-pic" src="images/tyler.jpg" alt="">
+              <p class="name">Tyler Garner</p>
+            </div>
+
+            <div class="main-section">
+                <h2>Main</h2>
+                <ul>
+                  <li><img class="main-icon" src="images/home-icon.svg" alt="Home">HOME</li>
+                  <li><img class="main-icon" src="images/suitcase-icon.svg" alt="Jobs">JOBS</li>
+                  <li><img class="main-icon" src="images/resume-icon.svg" alt="Resume">RESUME</li>
+                  <li><img class="main-icon" src="images/task-icon.svg" alt="Tasks">TASKS</li>
+                  <li><img class="main-icon" src="images/calendar-icon.svg" alt="Calendar">CALENDAR</li>
+                </ul>
+            </div>
+
+            <div class="admin-section">
+                <h2>Admin</h2>
+                <ul>
+                  <li><img class="admin-icon" src="images/users-icon.svg" alt="">USERS</li>
+                  <li><img class="admin-icon" src="images/light-pin-icon.svg" alt="">LOCATIONS</li>
+                  <li><img class="admin-icon" src="images/workflow-icon.svg" alt="">WORKFLOWS</li>
+                  <li><img class="admin-icon" src="images/jobboard-icon.svg" alt="">JOB BOARDS</li>
+                  <li><img class="admin-icon" src="images/social-icon.svg" alt="">SOCIAL</li>
+                </ul>
+            </div>
+
+            <form class="checkboxes">
+              <h2>Categories</h2>
+                <div class="checkbox-box"
+                <ul>
+                  <li><input class="checkbox checkone" type="checkbox" name="categories" value="Administrative"></li>
+                  <li><input class="checkbox checktwo" type="checkbox" name="categories" value="Design"></li>
+                  <li><input class="checkbox checkthree" type="checkbox" name="categories" value="Executive"></li>
+                  <li><input class="checkbox checkfour" type="checkbox" name="categories" value="Human Resources"></li>
+                </ul>
+              </div>
+            </form>
+        </aside>
+
+    <section class="main-content">
+      <header>
+        <section class="top-bar">
+          <div class=" icon-div">
+            <img class="burger-menu" src="images/menu-icon.svg" alt="">
+          </div>
+          <div class="search-bar icon-div">
+            <img class="search-icon" src="images/search-icon.svg" alt="">
+            <input class="search-input" type="search" name="" placeholder="Search for a job, task or resume!">
+          </div>
+          <div class="topicon"><img src="" alt=""></div>
+          <div class="topicon"><img src="" alt=""></div>
+          <div class="topicon"><img src="" alt=""></div>
+        </section>
+        <section class="job-description">
+
+
+
+
+          <div class="title-line">
+            <div class="title-container">
+            <h1 class="job-title">Customer Service Representative</h1>
+            <div class="location">
+              <img class="location-icon" src="images/pin-icon.svg" alt="Location Icon">
+              <h2 class="job-location">San Francisco</h2>
+              <p>Preview this post</p>
+            </div>
+          </div>
+            <div class="header-icons">
+              <div class="open-btn">
+                <img class="active-light" src="images/statuslight.png" alt="Active Indicator">
+                <p>OPEN</p>
+              </div>
+              <button class="button"><img class="btn-icon" src="images/bookmark-icon.svg" alt="Bookmark this"></button>
+              <button class="button"><img class="btn-icon" src="images/edit-icon.svg" alt="Edit this"></button>
+              <button class="button"><img class="btn-icon" src="images/message-icon.svg" alt="Send Message"></button>
+            </div>
+          </div>
+          <nav>
+            <ul class="header-list">
+              <li>SUMARY</li>
+              <li>APPLICANTS</li>
+              <li>JOB BOARD</li>
+              <li>INTERVIEWS</li>
+              <li>ACTIVITY</li>
+              <li>BROADCAST</li>
+              <li>NOTIFICATIONS</li>
+            </ul>
+          </nav>
+        </section>
+      </header>
+      <section class="stats">
+        <article class="circlegraph-wrap">
+          <div class="stat-graph-container">
+            <div class="stat-graphs">
+              <div class="stat-graph applicants">
+                <span class="graph-nbr">3154</span>
+                <span class="graph-title">Applicants</span>
+              </div>
+              <div class="stat-graph interviews">
+                <span class="graph-nbr">1456</span>
+                <span class="graph-title">Interviews</span>
+              </div>
+              <div class="stat-graph forwards">
+                <span class="graph-nbr">912</span>
+                <span class="graph-title">Forwards</span>
+              </div>
+            </div>
+            <button class="graph-btn">TOTALS • Out of 5,231 Views</button>
+          </div>
+          <article class="graph">
+            <img class="bar-graph" src="images/bar-chart.png" alt="bar graph showing applicants per day">
+            <button class="graph-btn">APPLICANTS/DAY</button>
+          </article>
+        </article>
+        </section>
+        <div class="divider">
+          <img class="arrow" src="images/divider-icon.png">
+        </div>
+        <section class="job">
+          <table class="description">
+            <thead class="table-header">
+              <tr>
+                <th class="table-top">
+                  <p>Job Description</p>
+                  <button class="edit-btn"><img class="edit-icon" src="images/edit-icon.svg" alt="pencil icon">Edit</button>
+                </th>
+              </tr>
+            </thead>
+            <tbody class="table">
+              <tr>
+                <td class="column1">POSITION TITLE</td>
+                <td class="column2">Customer Service Representative</td>
+              </tr>
+              <tr>
+                <td class="column1">LOCATION</td>
+                <td class="column2">San Francisco, CA</td>
+              </tr>
+              <tr>
+                <td class="column1">EMPLOYMENT TYPE</td>
+                <td class="column2">Full-time</td>
+              </tr>
+              <tr>
+                <td class="column1">EXPERIENCE</td>
+                <td class="column2">Expert</td>
+              </tr>
+              <tr>
+                <td class="column1">STATUS</td>
+                <td class="column2">Available</td>
+              </tr>
+              <tr>
+                <td class="column1">DESCRIPTION</td>
+                <td class="column2">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</td>
+              </tr>
+              <tr>
+                <td class="column1">HIRING LEADS</td>
+                <td class="column2"><img class="lead" src="images/tyler.jpg" alt="">Tyler Garner</td>
+              </tr>
+              <tr>
+                <td class="column1">APPROVED SALARY</td>
+                <td class="column2">$150,000</td>
+              </tr>
+            </tbody>
+          </table>
+          <aside class="social-section">
+            <div class="social-btn-div">
+              <button class="facebook social-btn"><img class="btn-icon" src="images/facebook-icon.png" alt="fIcon link to Facebook"><p class="btn-text">Post to Facebook</p></button>
+              <button class="twitter social-btn"><img class="btn-icon" src="images/twitter-icon.png" alt="Icon link to Twitter"><p class="btn-text">Tweet this Job</p></button>
+              <button class="linkedin social-btn"><img class="btn-icon" src="images/linkedin-icon.png" alt="Icon link to Linked in"><p class="btn-text">Post to Linkedin</p></button>
+            </div>
+            <article class="share">
+              <div class="header-share">
+                <img class="btn-icon-social" src="images/globe-icon.svg" alt="globe icon">
+                <h4>Link to this Job</h4>
+              </div>
+              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+              <section class="input-section">
+                <input type="text" value="">
+                <button>Copy</button>
+              </section>
+            </article>
+            <article class="share">
+              <section class="header-share">
+                <img class="btn-icon-social" src="images/inbox-icon.svg" alt="widget app icon">
+                <h4>Use the Button Widget</h4>
+              </section>
+              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+              <section class="input-section">
+                <input type="text" value="">
+                <button>Copy</button>
+              </section>
+            </article>
+            <article class="share" id='uploadEmail'>
+              <section class="header-share">
+                <img class="btn-icon-social" src="images/send-icon.svg" alt="paper plane icon">
+                <h4>Upload Resumes by Email</h4>
+              </section>
+              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+              <section class="input-section">
+                <input id='input-email' type="text" value="">
+              </section>
+            </article>
+          </aside>
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
