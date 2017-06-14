@@ -30,6 +30,10 @@ nav {
   width: 80px;
 }
 
+.name {
+  text-align: center;
+}
+
 .side-nav {
   margin-top: 0px;
 
