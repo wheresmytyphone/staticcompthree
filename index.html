@@ -10,10 +10,10 @@
   </head>
 
   <body>
-    <section class="main">
-        <aside class="side-nav">
+    <main class="main">
+        <nav class="side-nav">
             <div class="nav-profile">
-              <img class="user-pic" src="images/tyler.jpg" alt="">
+              <img class="user-pic" src="images/tyler.jpg" alt="User profile Picture">
               <p class="name">Tyler Garner</p>
             </div>
 
@@ -31,45 +31,43 @@
             <div class="admin-section">
                 <h2>Admin</h2>
                 <ul>
-                  <li><img class="admin-icon" src="images/users-icon.svg" alt="">USERS</li>
-                  <li><img class="admin-icon" src="images/light-pin-icon.svg" alt="">LOCATIONS</li>
-                  <li><img class="admin-icon" src="images/workflow-icon.svg" alt="">WORKFLOWS</li>
-                  <li><img class="admin-icon" src="images/jobboard-icon.svg" alt="">JOB BOARDS</li>
-                  <li><img class="admin-icon" src="images/social-icon.svg" alt="">SOCIAL</li>
+                  <li><img class="admin-icon" src="images/users-icon.svg" alt="Admin/Users">USERS</li>
+                  <li><img class="admin-icon" src="images/light-pin-icon.svg" alt="Admin/Locations">LOCATIONS</li>
+                  <li><img class="admin-icon" src="images/workflow-icon.svg" alt="Admin/Workflows">WORKFLOWS</li>
+                  <li><img class="admin-icon" src="images/jobboard-icon.svg" alt="Admin/Job Boards">JOB BOARDS</li>
+                  <li><img class="admin-icon" src="images/social-icon.svg" alt="Admin/Social">SOCIAL</li>
                 </ul>
             </div>
+            <section class="categories">
+              <p class="">Categories</p>
+              <form action="get" class="">
+                <input type="checkbox" id="administrative" class="checkbox" name="administrative" value="administrative">
+                <label for="administrative" class="">Administrative</label>
+                <input type="checkbox" id="design" class="checkbox" name="design" value="design">
+                <label for="design" class="">Design</label>
+                <input type="checkbox" id="executive" class="checkbox" name="executive" value="executive">
+                <label for="executive" class="">Executive</label>
+                <input type="checkbox" id="human-resources" class="checkbox" name="human-resources" value="human resources">
+                <label for="human-resources">Human Resources</label>
+              </form>
+            </section>
 
-            <form class="checkboxes">
-              <h2>Categories</h2>
-                <div class="checkbox-box"
-                <ul>
-                  <li><input class="checkbox checkone" type="checkbox" name="categories" value="Administrative"></li>
-                  <li><input class="checkbox checktwo" type="checkbox" name="categories" value="Design"></li>
-                  <li><input class="checkbox checkthree" type="checkbox" name="categories" value="Executive"></li>
-                  <li><input class="checkbox checkfour" type="checkbox" name="categories" value="Human Resources"></li>
-                </ul>
-              </div>
-            </form>
-        </aside>
-
+ </nav>
     <section class="main-content">
       <header>
         <section class="top-bar">
           <div class=" icon-div">
-            <img class="burger-menu" src="images/menu-icon.svg" alt="">
+            <img class="burger-menu" src="images/menu-icon.svg" alt="Drop-down Menu">
           </div>
           <div class="search-bar icon-div">
-            <img class="search-icon" src="images/search-icon.svg" alt="">
-            <input class="search-input" type="search" name="" placeholder="Search for a job, task or resume!">
+            <img class="search-icon" src="images/search-icon.svg" alt="Search Button">
+            <input class="search-input" type="search" name="" placeholder="Search for a job, task or resume!" alt="Search-input">
           </div>
-          <div class="topicon"><img src="" alt=""></div>
-          <div class="topicon"><img src="" alt=""></div>
-          <div class="topicon"><img src="" alt=""></div>
+          <div class="topicon"><img class="top-icon" src="images/add-user-icon.svg" alt="Add Friends"></div>
+          <div class="topicon"><img class="top-icon" src="images/cal-clock-icon.svg" alt="Calender"></div>
+          <div class="topicon"><img class="top-icon"src="images/grid-icon.svg" alt="Social Menu"></div>
         </section>
         <section class="job-description">
-
-
-
 
           <div class="title-line">
             <div class="title-container">
@@ -77,7 +75,7 @@
             <div class="location">
               <img class="location-icon" src="images/pin-icon.svg" alt="Location Icon">
               <h2 class="job-location">San Francisco</h2>
-              <p>Preview this post</p>
+              <p alt="Preview this Post">Preview this post</p>
             </div>
           </div>
             <div class="header-icons">
@@ -92,7 +90,7 @@
           </div>
           <nav>
             <ul class="header-list">
-              <li>SUMARY</li>
+              <li>SUMMARY</li>
               <li>APPLICANTS</li>
               <li>JOB BOARD</li>
               <li>INTERVIEWS</li>
@@ -168,7 +166,7 @@
               </tr>
               <tr>
                 <td class="column1">HIRING LEADS</td>
-                <td class="column2"><img class="lead" src="images/tyler.jpg" alt="">Tyler Garner</td>
+                <td class="column2"><img class="lead" src="images/tyler.jpg" alt="Image of Tyler Garner">Tyler Garner</td>
               </tr>
               <tr>
                 <td class="column1">APPROVED SALARY</td>
@@ -178,7 +176,7 @@
           </table>
           <aside class="social-section">
             <div class="social-btn-div">
-              <button class="facebook social-btn"><img class="btn-icon" src="images/facebook-icon.png" alt="fIcon link to Facebook"><p class="btn-text">Post to Facebook</p></button>
+              <button class="facebook social-btn"><img class="btn-icon" src="images/facebook-icon.png" alt="Icon link to Facebook"><p class="btn-text">Post to Facebook</p></button>
               <button class="twitter social-btn"><img class="btn-icon" src="images/twitter-icon.png" alt="Icon link to Twitter"><p class="btn-text">Tweet this Job</p></button>
               <button class="linkedin social-btn"><img class="btn-icon" src="images/linkedin-icon.png" alt="Icon link to Linked in"><p class="btn-text">Post to Linkedin</p></button>
             </div>
@@ -217,6 +215,6 @@
           </aside>
         </section>
       </section>
-    </section>
+    </main>
   </body>
 </html>
