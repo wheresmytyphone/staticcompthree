@@ -31,7 +31,8 @@ nav {
 }
 
 .side-nav {
-  display: none;
+  margin-top: 0px;
+
 }
 
 .edit-icon {
@@ -800,6 +801,7 @@ border-left-color: #B667AC;
 
   .side-nav li img {
     margin-right: 10px;
+    margin-left: 13px;
   }
 
   .checkboxes-box {
